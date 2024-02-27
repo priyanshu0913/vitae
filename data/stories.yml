@@ -1,0 +1,71 @@
+version: "3.1"
+
+stories:
+
+- story: happy path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_great
+  - action: utter_happy
+
+- story: sad path 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_happy
+
+- story: sad path 2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_goodbye
+
+- story: Asking about courses
+  steps:
+  - intent: courses
+  - action: utter_courses
+
+- story: Asking about B.Tech courses
+  steps:
+  - intent: btech_courses
+  - action: utter_btech_cources
+
+- story: Asking about postgraduate courses
+  steps:
+  - intent: pg_courses
+  - action: utter_pg_courses
+
+- story: Applying online
+  steps:
+  - intent: apply_online
+  - action: utter_aply_online
+
+- story: Asking about faculty information
+  steps:
+  - intent: faculty_information
+  - action: utter_faculty_information
+
+- story: Asking about faculty cabin
+  steps:
+  - intent: faculty_cabin
+  - action: utter_faculty_cabin
+
+- story: Asking about faculty email
+  steps:
+  - intent: faculty_email
+  - action: utter_faculty_email
+
+- story: Asking about exam date
+  steps:
+  - intent: exam_date
+  - action: utter_exam_date
+

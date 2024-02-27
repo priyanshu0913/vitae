@@ -1,0 +1,131 @@
+version: "3.1"
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+    - who are you
+- intent: courses
+  examples: |
+    - Tell me about the courses
+    - What courses do you offer?
+    - Explain the academic programs
+    - List the available courses
+- intent: btech_courses
+  examples: |
+    - Tell me about B.Tech courses
+    - What B.Tech programs are available?
+    - Explain the engineering programs
+    - List the B.Tech specializations
+- intent: pg_courses
+  examples: |
+    - Tell me about postgraduate programs
+    - What postgraduate courses are offered?
+    - Explain the M.Tech specializations
+    - List the PG Programs
+- intent: apply_online
+  examples: |
+    - How can I apply online?
+    - Tell me about the admission process
+    - Guide me through the online application
+    - Provide information about applying
+- intent: faculty_information
+  examples: |
+    - Who is [Dr. Ajay Kumar Phulre](faculty_name)?
+    - Tell me about [Dr. Ajay Kumar Phulre](faculty_name).
+    - Give me information about [Dr. Ajay Kumar Phulre](faculty_name).
+    - Explain the academic background of [Dr. Ajay Kumar Phulre](faculty_name)
+- intent: faculty_cabin
+  examples: |
+    - What is the cabin number of Dr. Ajay Kumar Phulre?
+    - Where is Dr. Phulre's office located?
+    - Tell me about the faculty cabin
+- intent: faculty_email
+  examples: |
+    - What is Ramraj Dangi's email?
+    - Give me the email address of Ramraj Dangi
+    - How can I contact Ramraj Dangi?
+- intent: exam_date
+  examples: |
+    - When is my Python Programming exam?
+    - What is the date of the CSE3011 exam?
+    - Tell me about the exam schedule
+    - Provide information about the Python Programming exam date

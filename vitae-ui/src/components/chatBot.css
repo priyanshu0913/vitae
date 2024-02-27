@@ -1,0 +1,125 @@
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f8ff; 
+    margin: 0;
+  }
+  
+  .card {
+    max-width: 35rem;
+    border: 1px solid black;
+    border-radius: 30px;
+    box-shadow: 0 16px 20px 0 rgba(0, 0, 0, 0.4);
+  }
+  
+  .cardHeader {
+    height: 4.5rem;
+    border-bottom: 1px solid black;
+    border-radius: 30px 30px 0 0;
+    background-color: #add8e6; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .cardHeader h1 {
+    margin-bottom: 0;
+  }
+  
+  .cardBody {
+    padding-top: 10px;
+    height: 28rem;
+    overflow-y: auto; 
+    overflow-x: hidden;
+  }
+  
+  .msgarea {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .msgalignstart,
+  .msgalignend {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .botIcon,
+  .userIcon {
+    font-size: 40px;
+    border: 1px solid #ffffff; 
+    border-radius: 50px;
+    margin: 5px;
+    padding: 5px;
+  }
+  
+  .botmsg,
+  .usermsg {
+    background-color: #ffffff; 
+    padding: 15px;
+    min-height: 45px;
+    border-radius: 25px;
+    max-width: 20rem;
+    margin: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+  }
+  
+  .cardFooter {
+    border-top: 1px solid black;
+    border-radius: 0 0 30px 30px;
+    background-color: #add8e6; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+  }
+  
+  .msginp {
+    width: 100%;
+    height: 45px;
+    border-radius: 50px;
+    margin-top: 5px;
+    margin-left: 5px;
+    border: none;
+    padding-left: 10px;
+  }
+  
+  .circleBtn {
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    margin: 5px;
+    border: none;
+    background-color: #add8e6; 
+  }
+  
+  .sendBtn {
+    font-size: 25px;
+    color: #ffffff; 
+  }
+  
+  
+  ::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px #d3d3d3; 
+    border-radius: 10px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #add8e6; 
+    border-radius: 10px;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #87ceeb; 
+  }
+  
